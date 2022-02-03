@@ -1,0 +1,9 @@
+/* nav  */
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+    font-weight: 700;
+    margin-left: 20px;
+}
+#top-nav{
+    padding: 0 7%;
+}
