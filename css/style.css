@@ -1,9 +1,191 @@
-/* nav  */
-.navbar-light .navbar-nav .nav-link{
-    color: #000;
-    font-weight: 700;
-    margin-left: 20px;
+.container-fluid {
+    padding: 0 0;
 }
-#top-nav{
+/* nav  */
+header{
     padding: 0 7%;
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-weight: 700;
+    margin-left: 15px;
+}
+#fs-1{
+    font-size: 27px;
+}
+#fs-2{
+    font-size: 70px;
+}
+#fs-3{
+    font-size: 35px;
+}
+#self-text{
+    height: 86vh;
+    
+}
+/*                        about sec                           */
+#about-sec{
+    padding: 100px 8%;
+}
+#about-title{
+    font-size: 45px;
+}
+
+#about-p{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
+#about-p::after{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    left: 0;
+    right: 155px;
+    bottom: 0px;
+    top: 7px;
+    margin: auto;
+
+}
+#about-p::before{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    left: 155px;
+    right: 0px;
+    bottom: 0px;
+    top: 7px;
+    margin: auto;
+}
+#about-sec img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+#info-p{
+    font-size: 30px;
+    font-weight: 500;
+}
+/*                                 services                   */
+#ser-sec{
+    padding: 100px 8%;
+}
+#ser-title{
+    font-size: 45px;
+}
+#ser-p{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
+#ser-p::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
+    left: 0;
+    right: 190px;
+    bottom: 0px;
+    top: 7px;
+    margin: auto;
+
+}
+#ser-p::before{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
+    left: 190px;
+    right: 0px;
+    bottom: 0px;
+    top: 7px;
+    margin: auto;
+}
+.card{
+    transition:  1s ease;
+}
+#ser-icon{
+    font-size: 50px !important;
+    color: #dc3545;
+}
+.card:hover{
+    color: #fff !important;
+    background-color: #dc3545 !important;
+    transform: scale(1.1);
+}
+#progress-box span{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+/*                                skill section                           */
+#skill-sec{
+    padding: 100px 8%;
+}
+#skill-title{
+    font-size: 45px;
+}
+
+#skill-p{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
+#skill-p::after{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    left: 0;
+    right: 145px;
+    bottom: 0px;
+    top: 7px;
+    margin: auto;
+
+}
+#skill-p::before{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    left: 145px;
+    right: 0px;
+    bottom: 0px;
+    top: 7px;
+    margin: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #fs-1{
+        font-size: 25px;
+    }
+    #fs-2 {
+        font-size: 50px;
+    }
+    #fs-3{
+        font-size: 25px;
+    }
 }

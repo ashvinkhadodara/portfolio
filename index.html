@@ -7,16 +7,19 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- bootstrap icons cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
 
     <title>My profile</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <!-- nav  -->
+    
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light pt-3" id="top-nav">
+      <!-- nav  -->
+      <nav class="navbar navbar-expand-lg navbar-dark pt-3 " id="top-nav">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><h1>Portfo<span style="color: red ;">lio.</span></h1></a>
+          <a class="navbar-brand" href="#"><h1>Portfo<span class="text-danger">lio.</span></h1></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -26,7 +29,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#">About-me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Services</a>
@@ -37,16 +40,132 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
               </li>
-              
-              
             </ul>
-           
           </div>
         </div>
       </nav>
-  
+      <!-- header bio text -->
+      <div class="container-fluid">
+        <div class="row d-flex align-items-center" id="self-text">
+          <div class="col-md-7 text-white" >
+            <h2><span id="fs-1">Hello, my name is</span></h2>
+            <h2><span id="fs-2">Ashvin khadodara</span></h2>
+            <h2><span id="fs-3">And i'm a Designer</span></h2>
+            <button type="button" class="btn btn-danger btn-lg mt-4">Hire me</button>
+          </div>
+          
+        </div>
+      </div>
+      
     </header>
-    
+    <!-- about -->
+    <div class="container-fluid" >
+      <div class="row justify-content-between  align-items-center" id="about-sec">
+        <div class="col-12 text-center ">
+          <h2 id="about-title" class="">About me</h2>
+          <p id="about-p" class="text-danger ">who i am</p>
+        </div>
+        <div class="col-lg-4 pt-4 col-12">
+          <img src="images/profile-1.jpeg" class="img-fluid rounded" alt="">
+        </div>
+        <div class="col-lg-6 justify-content-center pt-4 ">
+          <div id="about-text">
+            <p id="info-p">I'm Ashvin and I'm a Designer</p>
+            <small>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.
+            </small>
+            <br>
+            <button type="button" class="btn btn-danger btn-lg mt-3">Download CV</button>
+          </div>
+      </div>
+    </div>
+    <!-- services -->
+    <div class="container-fluid text-white" style="background-color: #000;">
+      <div class="row justify-content-evenly " id="ser-sec">
+        <div class="col-12 text-center ">
+          <h2 id="ser-title" class="">My services</h2>
+          <p id="ser-p" class="text-danger ">what i provide</p>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-white bg-dark mb-3 text-center pt-5 pb-5" style="max-width: 18rem;">
+            <div class="card-body">
+              <div class="c-icon"><i id="ser-icon" class="bi bi-filetype-html fs-1 "></i></div>
+              <h5 class="card-title fs-3">Html</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
+                .</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-white bg-dark mb-3 text-center pt-5 pb-5" style="max-width: 18rem;">
+            <div class="card-body">
+              <div class="c-icon"><i id="ser-icon" class="bi bi-filetype-css fs-1 "></i></div>
+              <h5 class="card-title fs-3">Css</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
+                .</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-white bg-dark mb-3 text-center pt-5 pb-5" style="max-width: 18rem;">
+            <div class="card-body">
+              <div class="c-icon"><i id="ser-icon" class="bi bi-bootstrap fs-1 "></i></div>
+              <h5 class="card-title fs-3">Bootstrap<h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
+                .</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- skills -->
+    <div class="container-fluid" >
+      <div class="row justify-content-center" id="skill-sec">
+        <div class="col-12 text-center">
+          <h2 id="skill-title" class="">My skills</h2>
+          <p id="skill-p" class="text-danger ">what i khow</p>
+        </div>
+                                              <!-- progress-box left side -->
+        <div class="col-md-5 mt-5">
+            <h4>My creative skills & experiences.</h4>
+            <p class="mt-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+            <button type="button" class="btn btn-danger btn-lg mt-2">Read more</button>
+        </div>
+                                              <!-- progress-box right side -->
+        <div class="col-md-5 mt-5">
+          <div id="progress-box">
+            <div id="progress-name">
+              <span class="mb-1 ">HTML</span> <span>90%</span>
+            </div>
+            <div class="progress" style="height: 7px;">
+              <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div id="progress-name">
+              <span class="mb-1 mt-3">CSS</span>
+            </div>
+            <div class="progress" style="height: 7px;">
+              <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 80%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div><div id="progress-name">
+              <span class="mb-1 ">JAVA SCRIPT</span> <span>90%</span>
+            </div>
+            
+            <div class="progress" style="height: 7px;">
+              <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 20%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <span class="mb-1 mt-3 "> BOOTSRAPT</span>
+            <div class="progress" style="height: 7px;">
+              <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 60%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <span class="mb-1 mt-3">PHOTOSHOP</span>
+            <div class="progress" style="height: 7px;">
+              <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 40%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+      </div>
+    </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
