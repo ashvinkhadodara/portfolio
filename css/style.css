@@ -1,5 +1,5 @@
-.container-fluid {
-    padding: 0 0;
+*{
+    scroll-behavior: smooth;
 }
 /* nav  */
 header{
@@ -182,7 +182,17 @@ header{
     top: 7px;
     margin: auto;
 }
-                            /* contact section */
+                                                        /* my team */
+#my-team{
+    padding: 100px 8%;
+}
+.carousel-item .card-1 img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border: 5px solid #dc3545;
+}
+                                                   /* contact section */
 #contact{
     padding: 100px 8%;
 }
