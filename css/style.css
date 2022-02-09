@@ -186,12 +186,42 @@ header{
 #my-team{
     padding: 100px 8%;
 }
-.carousel-item .card-1 img{
+#my-team-p{
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
+#my-team-p::after{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    left: 0;
+    right: 145px;
+    bottom: 0px;
+    top: 7px;
+    margin: auto;
+}
+#my-team-p::before{
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    left: 145px;
+    right: 0px;
+    bottom: 0px;
+    top: 7px;
+    margin: auto;
+}
+.card-1 img{
     height: 150px;
     width: 150px;
     object-fit: cover;
     border: 5px solid #dc3545;
 }
+
                                                    /* contact section */
 #contact{
     padding: 100px 8%;
