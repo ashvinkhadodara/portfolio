@@ -1,54 +1,65 @@
-*{
+* {
     scroll-behavior: smooth;
 }
+
 /* nav  */
-header{
+header {
     padding: 0 7%;
     background: url(../images/banner.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 }
+
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(255 255 255);
     font-weight: 700;
     margin-left: 15px;
 }
-#fs-1{
+
+#fs-1 {
     font-size: 27px;
 }
-#fs-2{
+
+#fs-2 {
     font-size: 70px;
     display: inline-block;
-    transition: 2s  ease ;
+    transition: 2s ease;
 }
-#fs-2:hover{
+
+#fs-2:hover {
     transform: rotateY(360deg);
 }
-#fs-3{
+
+#fs-3 {
     font-size: 35px;
 }
-#self-text{
+
+#self-text {
     height: 86vh;
-    
+
 }
-.nav-item a:hover{
+
+.nav-item a:hover {
     color: #dc3545 !important;
 }
+
 /*                        about sec                           */
-#about-sec{
+#about-sec {
     padding: 100px 8%;
 }
-#about-title{
+
+#about-title {
     font-size: 45px;
 }
 
-#about-p{
+#about-p {
     font-size: 20px;
     font-weight: 500;
     position: relative;
 }
-#about-p::after{
+
+#about-p::after {
     position: absolute;
     content: "";
     width: 60px;
@@ -61,7 +72,8 @@ header{
     margin: auto;
 
 }
-#about-p::before{
+
+#about-p::before {
     position: absolute;
     content: "";
     width: 60px;
@@ -73,28 +85,34 @@ header{
     top: 7px;
     margin: auto;
 }
-#about-sec img{
+
+#about-sec img {
     height: 400px;
     width: 400px;
     object-fit: cover;
 }
-#info-p{
+
+#info-p {
     font-size: 30px;
     font-weight: 500;
 }
+
 /*                                 services                   */
-#ser-sec{
+#ser-sec {
     padding: 100px 8%;
 }
-#ser-title{
+
+#ser-title {
     font-size: 45px;
 }
-#ser-p{
+
+#ser-p {
     font-size: 20px;
     font-weight: 500;
     position: relative;
 }
-#ser-p::after{
+
+#ser-p::after {
     position: absolute;
     content: "";
     width: 50px;
@@ -107,7 +125,8 @@ header{
     margin: auto;
 
 }
-#ser-p::before{
+
+#ser-p::before {
     position: absolute;
     content: "";
     width: 50px;
@@ -119,46 +138,55 @@ header{
     top: 7px;
     margin: auto;
 }
-.card{
-    transition:  1s ease;
-    max-width: 20rem!important;
+
+.card {
+    transition: 1s ease;
+    max-width: 20rem !important;
 }
-.card:hover{
+
+.card:hover {
     color: #fff !important;
     background-color: #dc3545 !important;
 }
-.card:hover .card-body{
+
+.card:hover .card-body {
     transform: scale(1.05);
     transition: 1s ease;
 }
-.card:hover .card-body #ser-icon{
+
+.card:hover .card-body #ser-icon {
     color: #fff;
 }
-#ser-icon{
+
+#ser-icon {
     font-size: 50px !important;
     color: #dc3545;
     transition: 1s ease;
 }
-#progress-box span{
+
+#progress-box span {
     display: inline-block;
     font-size: 18px;
     font-weight: 500;
 }
 
 
-    /*                                skill section                           */
-#skill-sec{
+/*                                skill section                           */
+#skill-sec {
     padding: 100px 8%;
 }
-#skill-title{
+
+#skill-title {
     font-size: 45px;
 }
-#skill-p{
+
+#skill-p {
     font-size: 20px;
     font-weight: 500;
     position: relative;
 }
-#skill-p::after{
+
+#skill-p::after {
     position: absolute;
     content: "";
     width: 30px;
@@ -170,7 +198,8 @@ header{
     top: 7px;
     margin: auto;
 }
-#skill-p::before{
+
+#skill-p::before {
     position: absolute;
     content: "";
     width: 30px;
@@ -182,16 +211,19 @@ header{
     top: 7px;
     margin: auto;
 }
-                                                        /* my team */
-#my-team{
+
+/* my team */
+#my-team {
     padding: 100px 8%;
 }
-#my-team-p{
+
+#my-team-p {
     font-size: 20px;
     font-weight: 500;
     position: relative;
 }
-#my-team-p::after{
+
+#my-team-p::after {
     position: absolute;
     content: "";
     width: 30px;
@@ -203,7 +235,8 @@ header{
     top: 7px;
     margin: auto;
 }
-#my-team-p::before{
+
+#my-team-p::before {
     position: absolute;
     content: "";
     width: 30px;
@@ -215,29 +248,34 @@ header{
     top: 7px;
     margin: auto;
 }
-.card-1 img{
+
+.card-1 img {
     height: 150px;
     width: 150px;
     object-fit: cover;
     border: 5px solid #dc3545;
 }
 
-                                                   /* contact section */
-#contact{
+/* contact section */
+#contact {
     padding: 100px 8%;
 }
-#contact-sec{
+
+#contact-sec {
     padding: 100px 8%;
 }
-#contact-title{
+
+#contact-title {
     font-size: 45px;
 }
-#contact-p{
+
+#contact-p {
     font-size: 20px;
     font-weight: 500;
     position: relative;
 }
-#contact-p::after{
+
+#contact-p::after {
     position: absolute;
     content: "";
     width: 50px;
@@ -249,7 +287,8 @@ header{
     top: 7px;
     margin: auto;
 }
-#contact-p::before{
+
+#contact-p::before {
     position: absolute;
     content: "";
     width: 50px;
@@ -261,39 +300,52 @@ header{
     top: 7px;
     margin: auto;
 }
-.f-detail p{
+
+.f-detail p {
     text-align: justify;
 }
-#contact-left-side{
+
+#contact-left-side {
     font-weight: 500;
 }
+
+.s-body .p-mail a {
+    text-decoration: none;
+    color: #000;
+}
+
 /* footer */
-#scall{
+#scall {
     display: inline-block;
     transition: 2s ease;
 }
-#scall:hover{
+
+#scall:hover {
     transform: scale(2) translateY(-25px);
 }
 
-                                                         /* responsive  */
+/* responsive  */
 @media only screen and (max-width: 992px) {
-    #about-sec img{
+    #about-sec img {
         height: 350px;
         width: 350px;
     }
 }
+
 @media only screen and (max-width: 600px) {
-    #fs-1{
+    #fs-1 {
         font-size: 25px;
     }
+
     #fs-2 {
         font-size: 50px;
     }
-    #fs-3{
+
+    #fs-3 {
         font-size: 25px;
     }
-    #about-sec img{
+
+    #about-sec img {
         height: 300px;
         width: 300px;
     }
